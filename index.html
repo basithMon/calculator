@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main_body">
+        <div class="calculator">
+            <div class="screen">
+                <input type="text" id="output" />
+                <label for="" style="margin-left: -145px; font-size: 25px">=</label>
+                <input type="text" id="ansa" />
+            </div>
+            <div class="button">
+                <button onclick="clearButton()" class="clear">C</button>
+                <div class="row">
+                    <button onclick="buttonclick(7)" class="butn">7</button>
+                    <button onclick="buttonclick(8)" class="butn">8</button>
+                    <button onclick="buttonclick(9)" class="butn">9</button>
+                    <button onclick="buttonclick('/')" class="butn">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(6)" class="butn">6</button>
+                    <button onclick="buttonclick(5)" class="butn">5</button>
+                    <button onclick="buttonclick(4)" class="butn">4</button>
+                    <button onclick="buttonclick('*')" class="butn">X</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(3)" class="butn">3</button>
+                    <button onclick="buttonclick(2)" class="butn">2</button>
+                    <button onclick="buttonclick(1)" class="butn">1</button>
+                    <button onclick="buttonclick('-')" class="butn">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(0)" class="butn">0</button>
+                    <button onclick="buttonclick('.')" class="butn">.</button>
+                    <button onclick="buttonclick('+')" class="butn">+</button>
+                    <button onclick="answerKey('=')" class="butan">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
